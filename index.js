@@ -14,7 +14,7 @@ getUsers().then(data => {
         let cases = item.casesPerOneMillion;
         let x = item.testsPerOneMillion/cases;
         if (item.testsPerOneMillion/cases > 25) {
-            color = "rgb(255, 0, 0)";
+            color = "rgb(255, 0, 0)"; // NHC{C0VID_19_
         }
 
         else {
